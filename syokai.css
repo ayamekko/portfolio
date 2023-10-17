@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* ヘッダー 
+--------------------------------------------------------------------------*/
+header {
+  background-image: url(image/header画像.jpeg);
+}
+
+h1 {
+  font-size: 50px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.menulist {
+  font-size: 15px;
+  background: #0bd;
+  padding-left: 100px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+li:hover {
+  color: rgb(210, 210, 210);
+}
+.aisatu {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.wrapper {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #0bd;
+  padding: 3px;
+}
+.syoukairan {
+  background-image: url(image/かり.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  /* background-position: 165px;
+  background-size: 1363px; */
+  background-position: 15%;
+  background-size: 80%;
+}
+
+/* Contactページ 
+--------------------------------------------------------------------------*/
+/* フォーム */
+form div {
+  margin-bottom: 14px;
+  margin-left: 25%;
+}
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255, 255, 255, 5);
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  max-width: 240px;
+}
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+.button {
+  font-size: 20px;
+  margin-bottom: 12px;
+  /* margin-left: 25%; */
+}
+.toiawase {
+  background-image: url(image/ルビンの盃.jpeg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: right 25% bottom 50%;
+  background-size: 565px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+}
+.irokae :hover {
+  color: rgb(210, 210, 210);
+}
+
+/* Gallery
+--------------------------------------------------------------------------*/
+.wrappergrid {
+  /* display: grid; */
+  gap: 26px;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  margin-top: 6%;
+  margin-bottom: 50px;
+  justify-items: center;
+}
+.item {
+  list-style: around;
+  justify-content: centerd;
+  border-bottom: solid #808080 2px;
+  text-align: center;
+}
+.moji {
+  border-bottom: solid #808080 2px;
+}
